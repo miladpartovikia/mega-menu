@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.4.0/fonts/remixicon.css" rel="stylesheet"/>
+    <title>Mega Menu Responsive</title>
+  </head>
+  <body>
+    <!-- Mega Menu -->
+    <nav>
+      <div class="wrapper">
+        <div class="logo"><a href="#" class="meglogo">Logo</a></div>
+        <input type="radio" name="slide" id="menu-btn" />
+        <input type="radio" name="slide" id="cancel-btn" />
+        <ul class="nav-links">
+          <label for="cancel-btn" class="btn cancel-btn">
+            <i class="ri-close-large-line"></i>
+          </label>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li>
+            <a href="#" class="desktop-item">DropDowns Menu</a>
+            <input type="checkbox" id="showDrop" />
+            <label for="showDrop" class="mobile-item">DropDowns Menu</label>
+            <ul class="drop-menu">
+              <li><a href="#">Drop Mneu 1</a></li>
+              <li><a href="#">Drop Mneu 2</a></li>
+              <li><a href="#">Drop Mneu 3</a></li>
+              <li><a href="#">Drop Mneu 4</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="desktop-item">Mega Menu</a>
+            <input type="checkbox" id="showMega" />
+            <label for="showMega" class="mobile-item">Mega Menu</label>
+            <div class="mega-box">
+              <div class="content">
+                <div class="row">
+                  <img src="img.jpg" />
+                </div>
+                <div class="row">
+                  <header>Design Services</header>
+                  <ul class="mega-links">
+                    <li><a href="#">Graphics</a></li>
+                    <li><a href="#">Vectors</a></li>
+                    <li><a href="#">Business Cards</a></li>
+                    <li><a href="#">Custom logo</a></li>
+                  </ul>
+                </div>
+                <div class="row">
+                  <header>Design Services</header>
+                  <ul class="mega-links">
+                    <li><a href="#">Graphics</a></li>
+                    <li><a href="#">Vectors</a></li>
+                    <li><a href="#">Business Cards</a></li>
+                    <li><a href="#">Custom logo</a></li>
+                  </ul>
+                </div>
+                <div class="row">
+                  <header>Design Services</header>
+                  <ul class="mega-links">
+                    <li><a href="#">Graphics</a></li>
+                    <li><a href="#">Vectors</a></li>
+                    <li><a href="#">Business Cards</a></li>
+                    <li><a href="#">Custom logo</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li><a href="#">FeedBack</a></li>
+        </ul>
+        <label for="menu-btn" class="btn menu-btn">
+          <i class="ri-menu-4-line"></i>
+        </label>
+      </div>
+    </nav>
+  </body>
+</html>
